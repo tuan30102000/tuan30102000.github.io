@@ -1,0 +1,14 @@
+@media (max-width: 1200px){
+    .header__list-box {
+        display: none;
+    }
+    .header__box{
+        flex-direction: column;
+    }
+div.not-pc{
+    justify-content: center;
+}
+.header__nav-box{
+    padding-right: 0;
+}
+}

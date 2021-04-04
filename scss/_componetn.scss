@@ -1,0 +1,445 @@
+.poter__content {
+    position: relative;
+    height: 100%;
+
+    img {
+        position: relative;
+        z-index: -10;
+        width: 100%;
+        height: 100%;
+    }
+}
+label{
+    cursor: pointer;
+}
+.poter__before {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+
+    img {
+        width: 35px;
+        height: 35px;
+    }
+}
+.poster__over-play {
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.poster__before-content {
+}
+.poster__before-nation {
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #fff;
+    margin-bottom: 12px;
+    text-align: left;
+}
+.poster__before-packages {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.poter__after {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #14b9d5;
+    padding: 30px;
+    z-index: 10;
+    transition: 1s;
+    opacity: 0;
+}
+.poter__after-title {
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+.poster__after-link {
+    font-size: 14px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #fff;
+    letter-spacing: 1px;
+    line-height: 33px;
+}
+.poter__after-btn {
+    margin-top: 20px;
+    background-color: #fff;
+    text-transform: uppercase;
+    color: #14b9d5;
+    display: block;
+    font-size: 14px;
+    padding: 5px 20px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    border-radius: 30px;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* poster */
+
+.home-page__title {
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: center;
+}
+.home-page1__action {
+    font-size: 20px;
+    letter-spacing: 4px;
+    color: #fff;
+    text-align: center;
+}
+.higlight {
+    @extend .higlight-not;
+    margin-left: 15px;
+    position: relative;
+    text-transform: capitalize;
+}
+.higlight-not {
+    font-weight: bold;
+}
+.higlight::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 5px;
+    left: 0;
+    bottom: 4px;
+    z-index: -9;
+}
+.title-hl {
+    display: flex;
+}
+
+@media (max-width: 1199px) {
+    /* home-page1 */
+    .higlight.not-pchl {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    .notpc-mgl0 {
+        margin-left: 0;
+    }
+    .higlight-not.not-pchl {
+        text-align: center;
+    }
+    .title-hl.not-pchl {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .not-pc-jf--start {
+        justify-content: start;
+    }
+}
+
+@media (max-width: 644px) {
+    .mobie-flex-col {
+        flex-direction: column;
+    }
+    .mobie-jf-unset {
+        justify-content: unset;
+    }
+    p.mobie-ta-center {
+        text-align: center;
+    }
+}
+/* .higlight */
+.home-page__title-first {
+    color: #9a9a9a;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+/* titlefirst */
+.cl__fff {
+    color: #fff;
+}
+.cl__f3a46b {
+    color: #f3a46b;
+}
+.fs-50 {
+    font-size: 50px;
+    line-height: 50px;
+}
+.lh-27 {
+    line-height: 27px !important;
+}
+
+.fs-45 {
+    font-size: 45px;
+    line-height: 45px;
+}
+.cptl {
+    text-transform: capitalize;
+}
+.uppercase {
+    text-transform: uppercase !important;
+}
+
+.cl__555 {
+    color: #555;
+}
+.fs-36 {
+    font-size: 36px;
+    line-height: 36px;
+}
+.cl__1bbc9b {
+    color: #1bbc9b;
+}
+.bgr-ffd205 {
+    background-color: #ffd205;
+}
+.bgr-f76570 {
+    background-color: #f76570;
+}
+.bgr-ba71da {
+    background-color: #ba71da;
+}
+.bgr-ffd205-to-ff9b05 {
+    background: linear-gradient(to right, #ffd205 0%, #ff9b05 100%);
+}
+.bgr-f76570-to-f78d65 {
+    background: linear-gradient(to right, #f76570 0%, #f78d65 100%);
+}
+.bgr-ba71da-to-da717b {
+    background: linear-gradient(to right, #ba71da 0%, #da717b 100%);
+}
+/* fs cl */
+
+.zindex1 {
+    position: relative;
+    z-index: 1;
+}
+
+/* position */
+.textleft {
+    text-align: left;
+}
+/* texalign */
+.jtfcontentstart {
+    justify-content: start;
+}
+.flex {
+    display: flex;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+/*flex  */
+.mgr0 {
+    margin-right: 0;
+}
+
+.mgl0 {
+    margin-left: 0;
+}
+.mgt20 {
+    margin-top: 20px;
+}
+.mgt30 {
+    margin-top: 30px;
+}
+.mgb20 {
+    margin-bottom: 20px;
+}
+.mgb30 {
+    margin-bottom: 30px;
+}
+.mgb15 {
+    margin-bottom: 15px;
+}
+.mgb40 {
+    margin-bottom: 40px;
+}
+.mgt60 {
+    margin-top: 60px;
+}
+
+/* margin */
+
+.after_f76570::after {
+    background-color: #f76570;
+}
+.after_1bbc9b::after {
+    background-color: #1bbc9b;
+}
+.afterzindex0::after {
+    z-index: -1;
+}
+.after_ba71da::after {
+    background-color: #ba71da;
+}
+
+/* after */
+.home-page__product-col {
+    padding: 15px;
+}
+
+.home-page__product {
+    border: 1px solid #f1f1f1;
+}
+.home-page__product-photo {
+    height: 230px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    position: relative;
+}
+.home-page__product-icon {
+    position: absolute;
+    bottom: -25px;
+    right: 25px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    img {
+        flex-basis: 26px;
+        height: 26px;
+    }
+}
+.home-page__product-info {
+    padding: 30px;
+}
+.home-page__product-from {
+    padding: 0 0 20px 0;
+}
+.home-page__product-city {
+    text-transform: capitalize;
+    color: #555;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+.home-page__product-nation {
+    line-height: 15px;
+    text-transform: capitalize;
+    font-size: 15px;
+    color: #9a9a9a;
+
+    span {
+        letter-spacing: 2px;
+        margin-left: 10px;
+    }
+}
+.home-page__prodcut-especially {
+    padding: 15px 0 10px 0;
+    display: flex;
+}
+.home-page__product-characteristics {
+    flex: 1;
+}
+.home-page__product-line {
+    font-size: 13px;
+    color: #555;
+    line-height: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 400;
+    span {
+        margin-left: 5px;
+        padding: 0 8px;
+        font-size: 10px;
+        line-height: 14px;
+        color: #fff;
+        border-radius: 30px;
+        letter-spacing: 3px;
+        display: inline-block;
+        height: 14px;
+    }
+}
+.home-page__product-price {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    .home-page__product-price-sale {
+        align-items: center;
+        font-size: 25px;
+        line-height: 25px;
+        letter-spacing: 2px;
+        font-weight: 400;
+        color: #555;
+        display: inline-flex;
+        margin-left: 5px;
+    }
+    .home-page__product-price-nor {
+        color: #9a9a9a;
+        font-size: 20px;
+        letter-spacing: 1px;
+        text-decoration: line-through;
+        line-height: 20px;
+        display: inline-flex;
+        align-items: center;
+        transform: translateY(6%);
+    }
+}
+.home-page__product-describe {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 27px;
+    color: #9a9a9a;
+}
+.home-page__product-btn {
+    font-size: 14px;
+    line-height: 27px;
+    color: #fff;
+    padding: 5px 20px;
+    letter-spacing: 1px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.home-page__product-photo--1 {
+    background-image: url("http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/package-1-1024x640.jpg");
+}
+.home-page__product-photo--2 {
+    background-image: url("http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/03/package-6-1024x640.jpg");
+}
+.home-page__product-photo--3 {
+    background-image: url("http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/package-2-1024x640.jpg");
+}
+
+.home-page__product--bdbt {
+    border-bottom: 1px solid #f1f1f1;
+}
+
+@media (max-width: 1200px) and(min-width:644px) {
+    .home-page__product-photo {
+        height: 500px;
+    }
+    
+}
+
+/* footer */

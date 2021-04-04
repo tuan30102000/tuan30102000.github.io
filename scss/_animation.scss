@@ -1,0 +1,40 @@
+/* tu tu hien ra */
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* tu goc hien ra */
+
+@keyframes grow {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes downto {
+    from {
+        top: 0%;
+    }
+    to {
+        top: 130%;
+    }
+}
+
+@keyframes downtoseach {
+    from {
+        top: 24px;
+    }
+    to {
+        top: 70px;
+    }
+}

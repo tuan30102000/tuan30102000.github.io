@@ -1,0 +1,159 @@
+.footer {
+}
+.footer-wraper {
+    background-image: url("http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-7.jpg?id=1602");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 80px 0;
+}
+.footer__grid{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.footer__row1 {
+    
+}
+.footer__row1-col {
+}
+.footer__col {
+}
+.footer__slogan {
+    padding-left: 170px;
+}
+.footer__slogan-line1 {
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #9a9a9a;
+
+    margin-bottom: 20px;
+}
+.footer__slogan-line2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #555;
+}
+
+.footer__email-form {
+    padding-top: 20px;
+    display: flex;
+}
+.from-input__warper {
+    margin-right: 20px;
+
+    height: 43px;
+    background-color: #f9f9f9;
+    border-radius: 30px;
+    padding: 10px 20px;
+    flex-basis: 251px;
+
+    input {
+        background-color: #f9f9f9;
+
+        display: block;
+        border: none;
+        outline: none;
+        color: #a3a3a3;
+        font-size: 15px;
+        line-height: 23px;
+        text-transform: uppercase;
+    }
+}
+.form-submit {
+    text-transform: uppercase;
+    height: 43px;
+    flex-basis: 52.5px;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #14b9d5;
+    font-size: 15px;
+    line-height: 23px;
+    border-radius: 30px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+/* row1 */
+.footer__row2 {
+    margin-top: 60px;
+    
+    padding: 35px 30px;
+    background-color: #fff;
+}
+.footer__row2-col {
+}
+.footer__social {
+}
+
+.social__logo {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    img {
+        width: 150px;
+    }
+}
+.social_text {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 27px;
+    color: #9a9a9a;
+    padding-right: 45px;
+    margin-bottom: 25px;
+    u {
+    }
+}
+.social__network {
+    display: flex;
+    padding-bottom: 10px;
+    a {
+        margin-right: 20px;
+        img {
+            object-fit: cover;
+            width: 22px;
+            height: 22px;
+        }
+    }
+}
+.row2__list-action {
+    padding: 25px 0 10px 0;
+}
+.list-action__title {
+    margin-top: 0;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 35px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.list-action__list-items {
+    li {
+        a {
+            font-size: 14px;
+            line-height: 27px;
+            color: #9a9a9a;
+            text-transform: capitalize;
+            letter-spacing: 1px;
+            
+        }
+    }
+}
+
+/* row2 */
+.footer__row3{
+    padding: 20px;
+    justify-content: space-between;
+    background-color: #14b9d5;
+
+    h6{
+        font-weight: 400;
+        margin: 0;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 12px;
+        color: #fff;
+    }
+}
+/* row3 */
