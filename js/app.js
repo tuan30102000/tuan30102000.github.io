@@ -1,27 +1,28 @@
-var MovedOn = function () {
-    var imgElmSlide = Array.from($('.home-pag4__img-slide'))
-    var activeImg = Array.from($('.home-pag4__img-slide.active'))
-    var idexAtive = imgElmSlide.indexOf(...activeImg)
-    console.log(idexAtive)
-
-    if (idexAtive < (imgElmSlide.length - 1)) {
-        $('.slide-btn--active').removeClass('slide-btn--active')
-        document.querySelectorAll('.home-page4__btn-slide')[idexAtive+1].classList.add('slide-btn--active')
-
-        $('.home-pag4__img-slide.active').removeClass('active')
-
-        document.querySelectorAll('.home-pag4__img-slide')[idexAtive + 1].classList.add("active")
-        
+window.onscroll = function () {
+    if (document.documentElement.scrollTop > 0) {
+        $('.header').addClass('scroll')
     } else {
-        $('.slide-btn--active').removeClass('slide-btn--active')
-        document.querySelectorAll('.home-page4__btn-slide')[0].classList.add('slide-btn--active')
-        $('.home-pag4__img-slide.active').removeClass('active')
-        document.querySelectorAll('.home-pag4__img-slide')[0].classList.add("active")
-        
+        $('.header.scroll').removeClass('scroll')
     }
 }
-function run(x) {
-    setInterval(MovedOn, x)
+$('.header__btn-mobie').click(function () {
+    if (!Boolean(document.querySelector('.header.open-menu'))) {
+        $('.header').addClass('open-menu')
+        gsap.from('.header__item', { duration: 1, opacity: 0, stagger: .5, })
+    } else {
+        $('.header').removeClass('open-menu')
+    }
+})
+function animationHomePage1() {
+    var timeline = gsap.timeline({
+        default: {
+            duration: 1,
+        }
+    })
+    timeline
+        .from('.header', { x: '100%', duration: 1, ease: 'ease', })
+        .from('.header__item', { duration: 1, opacity: 0, stagger: .5, })
 }
 
-run(3000)
+
+animationHomePage1()

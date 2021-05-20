@@ -8,7 +8,14 @@
         opacity: 1;
     }
 }
-
+@keyframes turn {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
 
 /* tu goc hien ra */
 
@@ -36,5 +43,13 @@
     }
     to {
         top: 70px;
+    }
+}
+@keyframes runslide {
+    from {
+        transform: perspective(1000px) rotateY(0deg);
+    }
+    to {
+        transform: perspective(1000px) rotateY(360deg);
     }
 }

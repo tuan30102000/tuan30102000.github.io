@@ -1,7 +1,11 @@
 * {
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     user-select: none;
+    line-height: normal;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
 }
 
 html {
@@ -10,14 +14,14 @@ html {
 }
 
 a {
-    font-family: "Poppins", sans-serif;
+   
     display: block;
     text-decoration: none;
 }
 
 p {
     font-size: 1.6rem;
-    font-family: "Poppins", sans-serif;
+    
     margin: 0;
 }
 

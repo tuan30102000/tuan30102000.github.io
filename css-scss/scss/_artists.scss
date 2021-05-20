@@ -1,0 +1,69 @@
+.container__artists {
+    background-color: #000;
+    padding-bottom: 200px;
+}
+.artists__box{
+    justify-content: center;
+}
+/* title */
+
+.artists-title {
+    font-size: 48px;
+    color: #fff;
+    grid-column: 1 / span 12;
+    justify-self: center;
+    margin-bottom: 100px;
+}
+.artists-title__content {
+    display: none;
+}
+/* title */
+/* slide */
+.artists__slide-show {
+
+ grid-column:5/span 4;
+    height: 180px;
+    position: relative;
+    transform-style: preserve-3d;
+    animation: runslide 20s linear infinite;
+}
+.artists__slide-item {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: rotateY(calc(var(--i) * 45deg)) translateZ(400px);
+}
+.artists__slide-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* slide */
+/* rps */
+
+@media (min-width: 1366px) {
+   
+}
+
+@media (min-width: 1024px) and(max-width:1365px) {
+  
+}
+@media (min-width: 768px) and(max-width:1023px) {
+    
+}
+@media (max-width: 767.5px) {
+    .artists-meet{
+        display: block;
+    }
+}
+
+/* tablet up to pc */
+@media (min-width: 768px) {
+   
+}
