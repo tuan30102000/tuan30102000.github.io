@@ -274,13 +274,13 @@ background-color:rgba(0,0,0,0.5) ;
     background-image: url('https://www.craftears.com/remote/direct_uploads/1560369460_Tomasz__Nawrot__Nawrocki.jpeg');
     clip-path: polygon(100% 0, 100% 0, 100% 100%, 45% 100%);
 }
-/* .container__home-page5:hover .clip{
+.clip-box:hover .clip{
     object-fit: cover;
     filter: brightness(50%);
     clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
-} */
+}
 .container__home-page5 .clip:hover{
-    z-index: 2;
+    
     background-position: 50% -0%;
     filter: brightness(100%);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);

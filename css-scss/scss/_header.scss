@@ -7,9 +7,21 @@
     width: 100%;
     transition: 1s;
 }
+.logo-scroll-hidden{
+    display: block;
+}
+.logo-scroll-show{
+    display:none;
+}
 .header.scroll {
     box-shadow: 0 12px 32px 0 rgba(33, 37, 41, 0.06);
     background-color: #fff;
+    .logo-scroll-hidden{
+        display: none;
+    }
+    .logo-scroll-show{
+        display: block;
+    }
     .header__btn-mobie {
         span {
             color: var(--color-main);
@@ -81,8 +93,7 @@
     justify-content: flex-start;
     img {
         height: 70px;
-        width: 70px;
-        display: block;
+       
     }
     /* span{
         display: none;

@@ -2,12 +2,13 @@
     background-color: #000;
     padding-bottom: 200px;
 }
-.artists__box{
+.artists__box {
     justify-content: center;
 }
 /* title */
 
 .artists-title {
+    text-align: center;
     font-size: 48px;
     color: #fff;
     grid-column: 1 / span 12;
@@ -20,8 +21,8 @@
 /* title */
 /* slide */
 .artists__slide-show {
-
- grid-column:5/span 4;
+    text-align: center;
+    grid-column: 5 / span 4;
     height: 180px;
     position: relative;
     transform-style: preserve-3d;
@@ -48,22 +49,19 @@
 /* rps */
 
 @media (min-width: 1366px) {
-   
 }
 
 @media (min-width: 1024px) and(max-width:1365px) {
-  
 }
 @media (min-width: 768px) and(max-width:1023px) {
-    
 }
 @media (max-width: 767.5px) {
-    .artists-meet{
+    .artists-meet {
         display: block;
+        text-align: center;
     }
 }
 
 /* tablet up to pc */
 @media (min-width: 768px) {
-   
 }
