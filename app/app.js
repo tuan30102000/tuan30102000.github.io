@@ -193,6 +193,7 @@ const app = {
                 _this.currentIndex = Number(e.currentTarget.dataset.index)
                 _this.renderSongactive()
                 audio.play()
+                document.documentElement.scrollTop=0
             }
 
 
