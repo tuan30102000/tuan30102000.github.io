@@ -8,7 +8,7 @@ const GAME_STATUS = {
 }
 
 const PAIRS_COUNT = 8
-const GAME_TIME = 40
+const GAME_TIME = 35
 const audioClickSound = document.getElementById('click-sound')
 const audioPointSound = document.getElementById('point-sound')
 const audioCoundownSound = document.getElementById('coundown-sound')
